@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alta de Ciudad</title>
+</head>
+
+<body>
+
+    <h2>Agregar una nueva ciudad</h2>
+
+    <form action="Alta.php" method="POST" name="FormAlta">
+
+        <table>
+            <tr>
+                <td>Ciudad:</td>
+                <td><input type="text" name="ciudad" maxlength="100" required></td>
+            </tr>
+
+            <tr>
+                <td>País:</td>
+                <td><input type="text" name="pais" maxlength="100" required></td>
+            </tr>
+
+            <tr>
+                <td>Habitantes:</td>
+                <td><input type="number" name="habitantes" min="0" required></td>
+            </tr>
+
+            <tr>
+                <td>Superficie:</td>
+                <td><input type="number" name="superficie" min="0" step="0.01" required></td>
+            </tr>
+
+            <tr>
+                <td>¿Tiene metro?</td>
+                <td>
+                    <input type="checkbox" name="tieneMetro" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Agregar ciudad">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <p><a href="Menu.html">Volver al menú del ABML</a></p>
+
+</body>
+</html>
