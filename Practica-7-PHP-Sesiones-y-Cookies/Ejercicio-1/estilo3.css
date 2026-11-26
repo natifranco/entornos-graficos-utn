@@ -1,0 +1,30 @@
+
+body {
+    background-color: #222222;
+    color: #eeeeee;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 36px;
+}
+
+form {
+    background-color: #333333;
+    padding: 30px;
+    border: 2px solid #ffcc00;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ffcc00;
+    color: #222222;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
