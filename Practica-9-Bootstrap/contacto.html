@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8">
+
+                <h1 class="text-center mb-4">Formulario de contacto</h1>
+
+                <form action="#" method="POST">
+
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control"
+                            id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control"
+                            id="email" name="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control"
+                            id="telefono" name="telefono" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control"
+                            id="asunto" name="asunto" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Cuerpo del mensaje</label>
+                        <textarea class="form-control" id="mensaje"
+                            name="mensaje" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Enviar formulario
+                    </button>
+
+                </form>
+
+                <div class="mt-4">
+                    <a href="index.html">Volver al inicio</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
