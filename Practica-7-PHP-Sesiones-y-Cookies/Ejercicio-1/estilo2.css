@@ -1,0 +1,29 @@
+
+body {
+    background-color: #dceeff;
+    color: #183153;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 40px;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 36px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #0066cc;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 3px;
+}
