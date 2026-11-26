@@ -1,0 +1,95 @@
+
+/* Estilos generales */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado violeta */
+.encabezado {
+    background-color: #a77fa8;
+    min-height: 100px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.encabezado h1 {
+    margin: 0;
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #f5dcd3;
+    min-height: 450px;
+    padding: 20px;
+}
+
+/* Zona de alerta */
+.zona-alerta {
+    background-color: #63c982;
+    min-height: 65px;
+    padding: 10px;
+}
+
+.zona-alerta .alert {
+    margin-bottom: 0;
+}
+
+/* Cards */
+.card {
+    height: 100%;
+    border: 1px solid #dddddd;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Rectángulos inferiores */
+.zona-celeste {
+    background-color: #7da0c9;
+    min-height: 180px;
+    padding: 20px;
+    color: white;
+}
+
+.zona-slider {
+    background-color: #7da0c9;
+    padding: 10px;
+}
+
+/* Imágenes del carrusel */
+.carousel img {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 767.98px) {
+
+    .encabezado {
+        min-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar {
+        min-height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .zona-celeste {
+        min-height: 150px;
+    }
+
+    .zona-slider {
+        min-height: 150px;
+    }
+
+    .carousel img {
+        height: 130px;
+    }
+
+}
